@@ -1,5 +1,5 @@
 Beginner Front-end Engineer
-이것저것 테스트 해보기!
+React, Typescript, Next.js, Nest.js에 관심이 있습니다!
 <!---
 
 --->
