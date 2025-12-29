@@ -18,9 +18,3 @@ React 생태계를 깊이 이해하며 TypeScript로 더 안정적인 코드를 
 ### Styling
 ![Styled Components](https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-
-## 🌱 Currently Learning
-- React 19의 새로운 기능들과 최적화 기법
-- Next.js 15의 업데이트된 기능들
-- 웹 접근성과 시맨틱 마크업
