@@ -19,8 +19,11 @@
   </a>
 </p>
 
-**모퉁이(Corner) — "퇴근하고 뭐하지?"** · 60초 진단 + 좌표(집·회사) → 동네 문화·여가 1픽 큐레이션.
-`Next.js 15 · React 19 · Expo · Supabase · pnpm + turbo` 모노레포. 👉 **[motungi-web.vercel.app](https://motungi-web.vercel.app/)**
+퇴근하고 뭐 하지 싶을 때 열어보는 앱. 60초짜리 짧은 진단이랑 집·회사 위치 두 개만 있으면, 동네 반경 안에서 오늘 갈 만한 곳 하나만 골라줍니다.
+
+만들면서 재밌었던 지점 — 동네를 필터가 아니라 좌표 거리 점수로 다뤘고, 서울 실공공데이터를 밤마다 스코어링해서 넣고 있어요.
+
+🔗 [motungi-web.vercel.app](https://motungi-web.vercel.app/)
 
 ---
 
@@ -38,6 +41,9 @@
 ![Styled Components](https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
 ### Backend / Infra
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
@@ -47,27 +53,6 @@
 ![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dlsxody1&show_icons=true&theme=tokyonight&border_color=EC5B7C&count_private=true&include_all_commits=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dlsxody1&layout=compact&theme=tokyonight&border_color=EC5B7C&langs_count=8"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dlsxody1&theme=tokyonight&border=EC5B7C" alt="streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dlsxody1&theme=tokyonight&column=7&margin-w=8&no-frame=true" alt="trophies"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dlsxody1&theme=tokyo-night&hide_border=true&color=EC5B7C&line=EC5B7C" alt="activity graph"/>
-</p>
 
 ---
 
