@@ -1,7 +1,7 @@
 <h1 align="center">안녕하세요, dlsxody1 입니다 👋</h1>
 <p align="center">
-  사용자의 일상을 더 편리하게 만드는 <b>프론트엔드 개발자</b>입니다.<br/>
-  React · TypeScript 생태계에서 안정적이고 직관적인 인터페이스를 만듭니다.
+  <b>프론트엔드 개발자</b>입니다.<br/>
+  주로 React · TypeScript로 웹을 만들고, 어떻게 하면 더 나은 화면을 만들 수 있을지 계속 배우는 중이에요.
 </p>
 
 <p align="center">
@@ -13,17 +13,13 @@
 
 ## 🚀 Featured Project
 
-<p align="center">
-  <a href="https://github.com/dlsxody1/motungi">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dlsxody1&repo=motungi&theme=tokyonight&border_color=EC5B7C" alt="motungi"/>
-  </a>
-</p>
+### [모퉁이 (motungi)](https://github.com/dlsxody1/motungi)
 
 퇴근하고 뭐 하지 싶을 때 열어보는 앱. 60초짜리 짧은 진단이랑 집·회사 위치 두 개만 있으면, 동네 반경 안에서 오늘 갈 만한 곳 하나만 골라줍니다.
 
 만들면서 재밌었던 지점 — 동네를 필터가 아니라 좌표 거리 점수로 다뤘고, 서울 실공공데이터를 밤마다 스코어링해서 넣고 있어요.
 
-🔗 [motungi-web.vercel.app](https://motungi-web.vercel.app/)
+🔗 라이브: [motungi-web.vercel.app](https://motungi-web.vercel.app/) · 💻 소스: [github.com/dlsxody1/motungi](https://github.com/dlsxody1/motungi)
 
 ---
 
