@@ -1,60 +1,43 @@
-<h1 align="center">안녕하세요, dlsxody1 입니다 👋</h1>
-<p align="center">
-  <b>프론트엔드 개발자</b>입니다.<br/>
-  주로 React · TypeScript로 웹을 만들고, 어떻게 하면 더 나은 화면을 만들 수 있을지 계속 배우는 중이에요.
-</p>
+<a href="https://carlos-portfolio-orpin.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+    <img alt="김인태, 웹 개발자. 화면에서 서버까지, AI와 함께 만듭니다." src="./assets/header-light.svg" width="100%">
+  </picture>
+</a>
 
 <p align="center">
-  <a href="https://motungi-web.vercel.app/"><img src="https://img.shields.io/badge/Live_Project-모퉁이(motungi)-EC5B7C?style=for-the-badge&logo=vercel&logoColor=white" alt="motungi"/></a>
-  <img src="https://komarev.com/ghpvc/?username=dlsxody1&style=for-the-badge&color=EC5B7C" alt="profile views"/>
+  <a href="https://carlos-portfolio-orpin.vercel.app"><b>포트폴리오</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://velog.io/@carloskim">velog</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:dlsxody1@naver.com">dlsxody1@naver.com</a>
 </p>
 
----
+동물병원 임상 SaaS, 사내 전자결재, 기업 홈페이지를 만들어 왔습니다. 화면은 React와 TypeScript로 만들고, 문제가 서버나 배포에 있으면 그쪽도 직접 봅니다.
 
-## 🚀 Featured Project
+요즘은 Claude Code로 개발 과정 전체를 돌립니다. 그만큼 AI가 쓴 코드가 팀의 규칙을 지키게 하는 도구를 만드는 데 시간을 씁니다.
 
-### [모퉁이 (motungi)](https://github.com/dlsxody1/motungi)
+## 만든 것
 
-퇴근하고 뭐 하지 싶을 때 열어보는 앱. 60초짜리 짧은 진단이랑 집·회사 위치 두 개만 있으면, 동네 반경 안에서 오늘 갈 만한 곳 하나만 골라줍니다.
+| 프로젝트 | 내용 | |
+| --- | --- | --- |
+| **VitalVET** | 동물병원 임상 SaaS. 대시보드, 마취위험도 평가, 동의서, 입원 차트, 결제까지 프론트엔드 전담 | 비공개 |
+| **MetaDx 홈페이지** | 기업 사이트 퍼블리싱, 어드민 연동, 다국어, 배포. 레포 커밋 171건 전부 | [metadxlab.com](https://metadxlab.com) |
+| **VitalVET 캠페인** | 디자이너 없이 기획서 PPT 5장을 받아 Claude Code와 디자인 스킬로 설계하고 구현 | [보기](https://metadxlab.com/vitalvet-campaign) |
+| **MetaDx Office** | 사내 전자결재와 경비 관리. 문서 6종, 15개월 1인 개발 | 비공개 |
+| **[모퉁이](https://github.com/dlsxody1/motungi)** | 퇴근 후 동네 여가를 1~3개만 골라 주는 서비스. Next.js, Expo, Supabase | [motungi-web](https://motungi-web.vercel.app) |
 
-만들면서 재밌었던 지점 — 동네를 필터가 아니라 좌표 거리 점수로 다뤘고, 서울 실공공데이터를 밤마다 스코어링해서 넣고 있어요.
+## AI와 일하는 방식
 
-🔗 라이브: [motungi-web.vercel.app](https://motungi-web.vercel.app/) · 💻 소스: [github.com/dlsxody1/motungi](https://github.com/dlsxody1/motungi)
+- **파일을 고치는 순간 도는 규칙 훅.** Claude Code가 파일을 저장할 때마다 FSD 구조 위반 5종을 검사해 에이전트에게 바로 돌려줍니다. 기존 코드는 막지 않고 새 위반만 막습니다.
+- **역할별 에이전트.** 스타일링과 UX 리뷰를 서브에이전트로 나누고, 반복 작업은 슬래시 커맨드 9종과 디자인 스킬 13종으로 묶었습니다.
+- **밤마다 일하는 에이전트.** 모퉁이에서는 매일 밤 에이전트가 백로그 이슈를 구현하고, typecheck와 test를 통과할 때만 dev에 올립니다. main 승격은 사람이 검수한 뒤에만 합니다.
+- **팀 사이 컨텍스트를 레포로.** 인프라·백엔드·ML 팀이 공유 레포의 요청, 공용 컨텍스트, 의사결정 로그를 같이 봅니다.
 
----
+## 다루는 도구
 
-## 🛠 Tech Stack
-
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-
-### Styling
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Styled Components](https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
-
-### Backend / Infra
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-### Tooling
-![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
-![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
-
----
-
-## 📬 Contact
-
-<p align="center">
-  <a href="mailto:carloskim@metadxlab.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/dlsxody1"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,vite,vitest,supabase,postgres,python,fastapi,spring,githubactions,azure,aws&perline=14" alt="TypeScript, React, Next.js, Tailwind CSS, Vite, Vitest, Supabase, PostgreSQL, Python, FastAPI, Spring, GitHub Actions, Azure, AWS" />
 </p>
+
+TanStack Router·Query, Jotai, react-hook-form, React Native(Expo), Storybook, Playwright, Sentry, i18next, Claude Code, MCP
